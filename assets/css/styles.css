@@ -2,12 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Gluten:wght@100;200;300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500&display=swap');
 
+::-webkit-scrollbar {
+    width: 9px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #000; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #000; 
+    border:2px solid #0ba8c4;
+    border-radius: 2px;
+  }
+
 ::-moz-selection { 
-  background: #ebd007;
+  background: #0ba8c4;
 }
 
 ::selection {
-  background: #ebd007;
+  background: #0ba8c4;
 }
 
 * {
@@ -23,7 +39,7 @@ html {
     background-size: cover;
 }
 
-.nav-item {
+/* .nav-item {
     list-style: none;
 }
 
@@ -139,5 +155,135 @@ html {
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
+} */
+
+.banner-area{
+    display:flex;
+    flex-wrap: wrap;
+    width:90%;
 }
 
+.banner-intro{
+    margin-top:170px;
+    font-size:60px;
+    color:#fff;
+    font-family: 'Gluten', cursive;
+    margin-left:100px;
+    line-height: 120%;
+}
+
+.banner-big-font{
+    font-size:100px;
+}
+
+.banner-coma-yel{
+    color:#63b1d4;
+}
+
+div.middle{
+    font-family: 'Gluten', cursive;
+    margin-top:60px;
+    height:120px;
+    text-align:left;
+    margin-left: 100px;
+    font-size:40px;
+    line-height:150%;
+  }
+  .text-type-animation{
+    line-height:120%;
+    text-transform:uppercase;
+    font-size:30px;
+    color:rgb(179, 161, 161);
+    
+  }
+  .txt-rotate{
+    font-size:50px;
+    color:#fff;
+  }
+
+.banner-img-div{
+    float:right;
+}  
+
+.banner-img-logo{
+    float:right;
+}
+
+.about{
+    margin-top:150px;
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+}
+
+.about-txt{
+    font-family: 'Gluten', cursive;
+    margin-top:100px;
+    color:#fff;
+}
+
+.about-paragraph{
+    width:60%;
+}
+
+.about-h1{
+    font-size:60px;
+    margin-bottom:30px;
+}
+
+.about-paragraph{
+    font-size:20px;
+    line-height:200%;
+    text-align:justify;
+}
+
+.skills{
+    margin-top:150px;
+    font-family: 'Gluten', cursive;
+}
+
+.skills-card-txt{
+    color:#fff;
+    font-size:25px;
+    /* font-family: 'Inconsolata', monospace; */
+    text-align: center;
+    padding-top:10px;
+    font-weight: bold;
+}
+
+.skills-inner{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.skills-main-h{
+    color:#fff;
+    font-family: 'Gluten', cursive;
+    font-size:60px;
+}
+
+.skills-card-img{
+    width:200px;
+    padding-left:25px;
+    padding-top:10px;
+}
+
+.skills-card-1{
+    height:230px;
+    width:230px;
+    background:rgb(24, 23, 23);
+    margin-left:30px;
+    margin-right:30px;
+    margin-top:40px;
+    border-radius: 10px;
+    transition: 1s ease-in-out;
+}
+
+.skills-card-1:hover{
+    transform: rotateY(360deg);
+}
+
+.projects{
+    margin-top:250px;
+}
