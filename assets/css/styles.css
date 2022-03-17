@@ -39,6 +39,8 @@ html {
     background-size: cover;
 }
 
+/*Nav Bar*/
+
 /* .nav-item {
     list-style: none;
 }
@@ -157,6 +159,10 @@ html {
     }
 } */
 
+
+
+/*Banner*/
+
 .banner-area{
     display:flex;
     flex-wrap: wrap;
@@ -209,6 +215,9 @@ div.middle{
     float:right;
 }
 
+
+/*About*/
+
 .about{
     margin-top:150px;
     display:flex;
@@ -236,6 +245,8 @@ div.middle{
     line-height:200%;
     text-align:justify;
 }
+
+/*Skills*/
 
 .skills{
     margin-top:150px;
@@ -284,6 +295,94 @@ div.middle{
     transform: rotateY(360deg);
 }
 
+/*Projects*/
+
 .projects{
+    font-family: 'Gluten', cursive;
     margin-top:250px;
+    color:#fff;
+}
+
+.inner-projects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-projects{
+    padding-left:20px;
+    padding-right:20px;
+    background:rgb(36, 35, 35);
+    padding-top:20px;
+    margin:10px;
+    border-radius:10px;
+}
+
+.card-proj-img{
+    width:400px;
+    height:250px;
+    margin-bottom:15px;
+}
+
+.projects-main-h{
+    font-size:60px;
+    font-weight:bold;
+    margin-bottom:30px;
+}
+
+.card-proj-title{
+    font-size:25px;
+    margin-bottom: 15px;
+}
+
+.card-proj-lan-span{
+    padding:8px;
+    font-size:15px;
+    border-radius:5px;
+    margin-right:5px;
+}
+
+.html-btn{
+    background-color: rgb(223, 121, 84);
+}
+
+.css-btn{
+    background-color: #0ba8c4;
+}
+
+.js-btn{
+    background-color: rgb(143, 143, 12);
+}
+
+.php-btn{
+    background-color: #055d6d;
+}
+
+.sql-btn{
+    background-color:#08b1ff;
+}
+
+.node-btn{
+    background-color:rgb(64, 158, 10);
+}
+
+.express-btn{
+    background-color:rgba(54, 52, 52, 0.979);
+}
+
+.mongo-btn{
+    background-color:rgb(6, 109, 12);
+}
+
+.ejs-btn{
+    background-color: rgb(172, 10, 50);
+}
+
+.card-proj-source{
+    padding:10px;
+    background:#30295a;
+    text-decoration: none;
+    color:#fff;
+    font-family: 'Gluten', cursive;
+    font-size:20px;
 }

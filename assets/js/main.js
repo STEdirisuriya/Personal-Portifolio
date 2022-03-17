@@ -1,3 +1,5 @@
+//Navbar
+
 // const hamburger = document.querySelector(".hamburger");
 // const navMenu = document.querySelector(".nav-menu");
 // const navLink = document.querySelectorAll(".nav-link");
@@ -14,6 +16,10 @@
 //     hamburger.classList.remove("active");
 //     navMenu.classList.remove("active");
 // }
+
+
+
+//Typewriter effect
 
 var TxtRotate = function(el, toRotate, period) {
   this.toRotate = toRotate;
