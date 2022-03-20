@@ -386,3 +386,74 @@ div.middle{
     font-family: 'Gluten', cursive;
     font-size:20px;
 }
+
+/*Contact*/
+
+.contact{
+    color:#fff;
+    font-family: 'Gluten', cursive;
+    margin-top:200px;
+    text-decoration: none;
+}
+
+.contact-main-h{
+    font-size:60px;
+    margin-bottom:100px;
+}
+
+.inner-contact{
+    width:70%;
+    margin-left:15%;
+    margin-right:15%;
+    background-color: rgb(36, 35, 35);
+    text-align:left;
+    border-radius: 10px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contact-div{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.contact-links-a{
+    text-decoration: none;
+    color:#fff;
+    font-size:20px;
+}
+
+.google-map-iframe{
+    width:400px;
+    height:400px;
+    text-align:right;
+    align-items: right;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.inner-contatc-contact-div{
+    margin-left:40px;
+    margin-right:40px;
+}
+
+.footer{
+    margin-top:150px;
+    color:#fff;
+    font-family: 'Gluten', cursive;
+}
+
+.inner-footer{
+    padding-top:20px;
+    padding-bottom: 20px;
+    background-color: rgb(36, 35, 35);
+}
+
+.footer-txt{
+    text-align:center;
+}
+
+.footer-special{
+    color:#63b1d4;
+    font-style: italic;
+}
