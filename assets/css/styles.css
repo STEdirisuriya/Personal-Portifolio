@@ -107,7 +107,7 @@ html {
     font-weight: 500;
     color: #fff;
     font-family: 'Gluten', cursive;
-}
+} */
 
 @media only screen and (max-width: 1000px) {
     .nav-menu {
@@ -157,7 +157,7 @@ html {
         -webkit-transform: translateY(-8px) rotate(-45deg);
         transform: translateY(-8px) rotate(-45deg);
     }
-} */
+}
 
 
 
@@ -165,8 +165,11 @@ html {
 
 .banner-area{
     display:flex;
-    flex-wrap: wrap;
-    width:90%;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
 }
 
 .banner-intro{
@@ -214,6 +217,11 @@ div.middle{
 
 .banner-img-logo{
     float:right;
+    margin: 20px;
+}
+
+.container{
+    margin: 50px;
 }
 
 
@@ -224,21 +232,27 @@ div.middle{
     display:flex;
     flex-wrap:wrap;
     width:100%;
+align-items: space-between;}
+
+.about-img {
+    display: flex;
+    align-items: center;
 }
 
 .about-txt{
     font-family: 'Gluten', cursive;
-    margin-top:100px;
+    margin-top: 50px;
     color:#fff;
 }
 
 .about-paragraph{
-    width:60%;
+    width: 80%;
 }
 
 .about-h1{
     font-size:60px;
-    margin-bottom:30px;
+    margin: 30px;
+    color: white;
 }
 
 .about-paragraph{
@@ -315,9 +329,9 @@ div.middle{
     padding-right:20px;
     background:rgb(36, 35, 35);
     padding-top:20px;
-    margin:10px;
+    padding-bottom: 40px;margin:10px;
     border-radius:10px;
-}
+position: relative;}
 
 .card-proj-img{
     width:400px;
@@ -386,7 +400,7 @@ div.middle{
     color:#fff;
     font-family: 'Gluten', cursive;
     font-size:20px;
-}
+position: absolute;bottom: 10px;}
 
 /*Contact*/
 
@@ -411,7 +425,7 @@ div.middle{
     border-radius: 10px;
     display:flex;
     flex-wrap: wrap;
-}
+justify-content: space-between;}
 
 .contact-div{
     padding-top:30px;
@@ -422,6 +436,10 @@ div.middle{
     text-decoration: none;
     color:#fff;
     font-size:20px;
+}
+
+.contact-map {
+    margin-right: 50px;
 }
 
 .google-map-iframe{
